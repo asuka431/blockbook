@@ -1,6 +1,6 @@
 // +build unittest
 
-package fujicoin
+package baricoin
 
 import (
 	"encoding/hex"
@@ -140,7 +140,7 @@ func Test_PackTx(t *testing.T) {
 		wantErr bool
 	}{
 		{
-			name: "fujicoin-1",
+			name: "baricoin-1",
 			args: args{
 				tx:        testTx1,
 				height:    2356068,
@@ -179,7 +179,7 @@ func Test_UnpackTx(t *testing.T) {
 		wantErr bool
 	}{
 		{
-			name: "fujicoin-1",
+			name: "baricoin-1",
 			args: args{
 				packedTx: testTxPacked1,
 				parser:   NewFujicoinParser(GetChainParams("main"), &btc.Configuration{}),
