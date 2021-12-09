@@ -66,5 +66,6 @@
 | Flo Testnet            | 19066                   | 19166                 | 18066            | 48366                       |
 | Qtum Testnet           | 19088                   | 19188                 | 18088            | 48388                       |
 | Omotenashicoin Testnet | 19089                   | 19189                 | 18089            | 48389                       |
+  Baricoin               | 8134                    | 9134                  | 9234             | 38134                       |
 
 > NOTE: This document is generated from coin definitions in `configs/coins`.
